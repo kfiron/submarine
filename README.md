@@ -1,6 +1,6 @@
 # submarine
 
-This small libs helps a developer to go directly inside object properties for any given depth and to return the datat
+This small lib helps a developer to go directly inside object properties for any given depth and to return the datat
 
 ## The problem
 
