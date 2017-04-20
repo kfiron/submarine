@@ -6,7 +6,7 @@ This small lib helps a developer to go directly inside object properties for any
 
 ```javascript
    const obj = {a: {b: {c: 'd'}}};
-   // get a.b.c
+   // get a.b.c - verbose way
    if(a && a.b && a.c)
      return a.b.c
 ```
@@ -16,8 +16,10 @@ This small lib helps a developer to go directly inside object properties for any
 ```javascript
    const submarine = require('submarine');
    const obj = {a: {b: {c: 'd'}}};
+   
+   // elegant way
    submarine(obj).a.b.c.getOrElse('bla') // === 'd'
-   // or
+   // or for non exist object
    submarine(obj).a.b.not.exist.getOrElse('bla') // === 'bla'
 ```
 
