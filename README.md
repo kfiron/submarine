@@ -1,4 +1,5 @@
 # submarine
+[![Build Status](https://travis-ci.org/kfiron/submarine.svg?branch=master)](https://travis-ci.org/kfiron/submarine)
 
 This small lib helps a developer to go directly inside object properties for any given depth and to return the datat
 
