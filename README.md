@@ -6,6 +6,7 @@ This small lib helps a developer to go directly inside object properties for any
 
 ```javascript
    const obj = {a: {b: {c: 'd'}}};
+   
    // get a.b.c - verbose way
    if(a && a.b && a.c)
      return a.b.c
